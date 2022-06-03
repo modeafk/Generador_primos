@@ -36,6 +36,6 @@ ini=100 #menor deigito de 3 cifras
 fin=99999 #mayor digito de 5 cifras
 ini=ini+1-(ini%2)
 while(ini<=fin):
-  if(MILLER_RABIN(ini,90)):
+  if(MILLER_RABIN(ini,50)):
     print(ini,end=";")
   ini=ini+2
